@@ -1,0 +1,9 @@
+---
+title: "About"
+---
+
+This is my website. I am a 3rd-year student at Mount Holyoke College studying in the Mathematics and Education departments.
+
+```{r}
+1 + 1
+```

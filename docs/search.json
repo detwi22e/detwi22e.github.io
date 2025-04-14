@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to my homepage :)",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This is my website. I am a 3rd-year student at Mount Holyoke College studying in the Mathematics and Education departments.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "test_file.html",
+    "href": "test_file.html",
+    "title": "Em Detwiler's Website",
+    "section": "",
+    "text": "test_file\njust need to see if i finally got this to work"
+  }
+]
