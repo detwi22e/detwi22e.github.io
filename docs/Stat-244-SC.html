@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Welcome to my homepage :) – Em Detwiler’s Website</title>
+<title>Stat-244-SC – Em Detwiler’s Website</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -89,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -97,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./Stat-244-SC.html"> 
+    <a class="nav-link active" href="./Stat-244-SC.html" aria-current="page"> 
 <span class="menu-text">Stat-244-SC</span></a>
   </li>  
 </ul>
@@ -111,15 +111,25 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#course-final-project" id="toc-course-final-project" class="nav-link active" data-scroll-target="#course-final-project">Course Final Project</a>
+  <ul class="collapse">
+  <li><a href="#project-introduction" id="toc-project-introduction" class="nav-link" data-scroll-target="#project-introduction">Project Introduction</a></li>
+  <li><a href="#data-visualization" id="toc-data-visualization" class="nav-link" data-scroll-target="#data-visualization">Data Visualization</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Welcome to my homepage :)</h1>
+<h1 class="title">Stat-244-SC</h1>
 </div>
 
 
@@ -136,9 +146,30 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This is a Quarto Website that will be used to showcase my work completed in Stats-244: Computational Statistics.</p>
+<section id="course-final-project" class="level2">
+<h2 class="anchored" data-anchor-id="course-final-project">Course Final Project</h2>
+<section id="project-introduction" class="level3">
+<h3 class="anchored" data-anchor-id="project-introduction">Project Introduction</h3>
+<p>The final project for Stat-244-SC is a data analysis report that utilizes the concepts learned in the course.</p>
+<p>For my project, I focused on a data set about the previous academic standings of students at an unnamed college in comparison to how they performed in their first year in college. This data set includes variables such as: student assigned sex, SAT score, high school GPA, and first year of college GPA. I decided to build a regression model to outline a relationship between previous student academic experiences and their success in college. I utilized statistics techniques such as k-fold cross validation and subset selection to build the best possible model to explore this relationship.</p>
+</section>
+<section id="data-visualization" class="level3">
+<h3 class="anchored" data-anchor-id="data-visualization">Data Visualization</h3>
+<p>This added variable plot showcases the correlations between my predictors and response variables from the raw data set.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="Stat-244-SC_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Both SAT Score and High School GPA seem to strongly correlated with First Year GPA. It appears that assigned sex may have a slightly smaller correlation; however, we will further explore this later on in this project.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

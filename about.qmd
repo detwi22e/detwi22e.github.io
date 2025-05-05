@@ -2,8 +2,8 @@
 title: "About"
 ---
 
-This is my website. I am a 3rd-year student at Mount Holyoke College studying in the Mathematics and Education departments.
+My name is Em Detwiler, and I am a 3rd-year student at Mount Holyoke College studying in the Mathematics and Education departments. My focus in studying mathematics is mostly centered around being able to better perform as an educator post-graduation.
 
-```{r}
-1 + 1
-```
+![](IMG_1882.jpeg){fig-align="center" width="296"}
+
+To contact me, please reach out via [LinkedIn](https://www.linkedin.com/in/emma-detwiler-55a4aa222/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app) or by email at detwi22e\@mtholyoke.edu.

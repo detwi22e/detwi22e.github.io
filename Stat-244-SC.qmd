@@ -1,0 +1,29 @@
+---
+title: "Stat-244-SC"
+---
+
+## Course Final Project 
+
+### Project Introduction
+
+The final project for Stat-244-SC is a data analysis report that utilizes the concepts learned in the course.
+
+For my project, I focused on a data set about the previous academic standings of students at an unnamed college in comparison to how they performed in their first year in college. This data set includes variables such as: student assigned sex, SAT score, high school GPA, and first year of college GPA. I decided to build a regression model to outline a relationship between previous student academic experiences and their success in college. I utilized statistics techniques such as k-fold cross validation and subset selection to build the best possible model to explore this relationship.
+
+### Data Visualization
+
+This added variable plot showcases the correlations between my predictors and response variables from the raw data set.
+
+```{r, include=FALSE}
+library(car)
+gpa_data<- read.csv("satgpa.csv")
+head(gpa_data)
+```
+
+```{r, echo=FALSE}
+mod1 <- lm(fy_gpa ~ sex + hs_gpa + sat_sum, data = gpa_data)
+library(car)
+avPlots(mod1)
+```
+
+Both SAT Score and High School GPA seem to strongly correlated with First Year GPA. It appears that assigned sex may have a slightly smaller correlation; however, we will further explore this later on in this project.

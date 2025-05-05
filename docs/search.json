@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Welcome to my homepage :)",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "This is a Quarto Website that will be used to showcase my work completed in Stats-244: Computational Statistics."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "This is my website. I am a 3rd-year student at Mount Holyoke College studying in the Mathematics and Education departments.\n\n1 + 1\n\n[1] 2"
+    "text": "My name is Em Detwiler, and I am a 3rd-year student at Mount Holyoke College studying in the Mathematics and Education departments. My focus in studying mathematics is mostly centered around being able to better perform as an educator post-graduation.\n\n\n\n\n\nTo contact me, please reach out via LinkedIn or by email at detwi22e@mtholyoke.edu."
   },
   {
     "objectID": "test_file.html",
@@ -19,5 +19,19 @@
     "title": "Em Detwiler's Website",
     "section": "",
     "text": "test_file\njust need to see if i finally got this to work"
+  },
+  {
+    "objectID": "Stat-244-SC.html",
+    "href": "Stat-244-SC.html",
+    "title": "Stat-244-SC",
+    "section": "",
+    "text": "The final project for Stat-244-SC is a data analysis report that utilizes the concepts learned in the course.\nFor my project, I focused on a data set about the previous academic standings of students at an unnamed college in comparison to how they performed in their first year in college. This data set includes variables such as: student assigned sex, SAT score, high school GPA, and first year of college GPA. I decided to build a regression model to outline a relationship between previous student academic experiences and their success in college. I utilized statistics techniques such as k-fold cross validation and subset selection to build the best possible model to explore this relationship.\n\n\n\nThis added variable plot showcases the correlations between my predictors and response variables from the raw data set.\n\n\n\n\n\n\n\n\n\nBoth SAT Score and High School GPA seem to strongly correlated with First Year GPA. It appears that assigned sex may have a slightly smaller correlation; however, we will further explore this later on in this project."
+  },
+  {
+    "objectID": "Stat-244-SC.html#course-final-project",
+    "href": "Stat-244-SC.html#course-final-project",
+    "title": "Stat-244-SC",
+    "section": "",
+    "text": "The final project for Stat-244-SC is a data analysis report that utilizes the concepts learned in the course.\nFor my project, I focused on a data set about the previous academic standings of students at an unnamed college in comparison to how they performed in their first year in college. This data set includes variables such as: student assigned sex, SAT score, high school GPA, and first year of college GPA. I decided to build a regression model to outline a relationship between previous student academic experiences and their success in college. I utilized statistics techniques such as k-fold cross validation and subset selection to build the best possible model to explore this relationship.\n\n\n\nThis added variable plot showcases the correlations between my predictors and response variables from the raw data set.\n\n\n\n\n\n\n\n\n\nBoth SAT Score and High School GPA seem to strongly correlated with First Year GPA. It appears that assigned sex may have a slightly smaller correlation; however, we will further explore this later on in this project."
   }
 ]
